@@ -25,7 +25,7 @@ class HBNBCommand(cmd.Cmd):
         """Exits console"""
         return True
 
-    def emptyline(self):
+   def emptyline(self):
         """ overwriting the emptyline method """
         return False
 
